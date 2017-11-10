@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Font Loader Example</title>
+  <meta name="description" content="Font Loader Example">
+  <meta name="author" content="Stuart Kent">
+
+  <link rel="stylesheet" href="styles.css">
+
+  <script>
+    if (sessionStorage.fontsLoaded) {
+      document.querySelector('html').classList.add('fonts-loaded');
+    }
+  </script>
+
+</head>
+
+<body>
+  <div>
+    <h1>HELLO WORLD</h1>
+    <p>This isn't a test of the emergency broadcast system, this is the real thing.</p>
+  </div>
+
+  <script src="fontfaceobserver.standalone.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
