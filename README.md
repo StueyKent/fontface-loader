@@ -19,12 +19,12 @@ Before a browser can show a font it has to be downloaded. Different browsers wil
 * Use Font Observer to load in your nice custom fonts
 * On load complete add a class to the html tag 'fonts-loaded'
 * Under this class, style your website with the nice fonts
-* Use session storage to dicided if you need to load the fonts or if they have been cached.
+* Use session storage to decide if you need to load the fonts or if they are cached.
 
 ## What the user sees
 * First load would be rendered with fallback fonts
 * Once fonts are loaded the nice custom fonts kick in
-* Refreshing would show the nice fonts straight away as they have been cached.
+* A refresh would show the nice fonts straight away as they have been cached for that session.
 
 ##### None of this can be credited to me, I have just made a little demo for future reference. 
  
